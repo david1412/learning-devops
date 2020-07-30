@@ -1,0 +1,46 @@
+Git basics new commands 
+
+$ git merge <branch>merges changes from <branch> to the current branch
+$ git merge --no-ff <branch>merges changes from <branch> to the current branch  and always creates an extra commit about the merge
+This makes it easier to undo merges
+
+
+git blame
+
+Specifically, git reset is a tool for resetting HEAD to a desired stage
+Most commonly it is used to unstage commits
+
+Reset general usage
+$ git reset --<mode> [<commit>]
+
+Most common modes:
+soft: Resets repository HEAD position to <commit>, leaving your changed files marked as ”Changes to be committed”
+hard: Resets the index and working tree. Any changes to tracked files in the working tree since <commit> are discarded.
+mixed: default action without the <mode> identifier. Resets the index but not the working tree (i.e., the changed files are preserved but not marked for commit) and reports what has not been updated.
+
+
+Usage:$ git rebase -i HEAD~4
+Takes 4 last commits and opens a text editor to determine what to do with each (pick, squash or edit)
+
+
+There are 2 kinds of tags "lightweight tags" and "tag objects"
+Lightweight tags
+Simple aliases for tags
+"branch that never moves"
+Tag objects
+Added as objects to the git database
+Can be signed using gpg
+Require tag messages 
+Tags create a sort of a frozen branch, which to which you can perform a checkout
+
+
+Lightweight tags
+$ git tag <tagname> <commit>creates a tag called <tagname> that points to <commit>
+Tag objects
+$ git tag -a <tagname> <commit>creates a tag object and opens a text editor where you can type a tag message 
+tag objects can be signed
+List all tags
+$ git tag
+
+
+
