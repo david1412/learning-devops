@@ -1,0 +1,65 @@
+1. git ls-files  > The files managed by git are shown with this command.
+
+# If you want to remove the file from the Git repository and the filesystem, use:
+
+git rm file1.txt
+git commit -m "remove file1.txt
+
+# But if you want to remove the file only from the Git repository and not remove it from the filesystem, use:
+
+git rm --cached file1.txt
+git commit -m "remove file1.txt"
+
+# The --stat option prints below each commit entry a list of modified files, how many
+  files were changed, and how many lines in those files were added and removed. It also puts a
+  summary of the information at the end.
+
+  git log --stat  > shows the histroy of commits
+
+# Another really useful option is --pretty. This option changes the log output to formats other than
+the default. A few prebuilt option values are available for you to use. The oneline value for this
+option prints each commit on a single line, which is useful if you’re looking at a lot of commits. In
+addition, the short, full, and fuller values show the output in roughly the same format but with
+less or more information, respectively:
+
+ git log --pretty=oneline  > log output with short format
+
+# git log --pretty=format:"%h - %an, %ar : %s" > version control
+
+%H Commit hash
+%h Abbreviated commit hash
+%T Tree hash
+%t Abbreviated tree hash
+%P Parent hashes
+%p Abbreviated parent hashes
+%an Author name
+%ae Author email
+%ad Author date (format respects the --date=option)
+%ar Author date, relative
+%cn Committer name
+%ce Committer email
+%cd Committer date
+%cr Committer date, relative
+%s Subject
+
+
+git log --pretty=format:"%h %s" --graph > shows the graph of the tree
+
+git log --since=2.weeks 
+
++++ git commit --amend
+One of the common undos takes place when you commit too early and possibly forget to add some
+files, or you mess up your commit message. If you want to redo that commit, make the additional
+changes you forgot, stage them, and commit again using the --amend option:
+
+
+git add * ( add all)
+
+git reset HEAD <file> > this will roll back to previous step
+
+
+
+
+
+
+
