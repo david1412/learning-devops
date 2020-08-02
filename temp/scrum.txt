@@ -1,0 +1,16 @@
+Scrum is an agile process that allows teams to deliver highest quality product or services in the shortest time.
+It employs iterative development cycle that is repeated after every two/four weeks (sprints) in which the service or product is rapidly developed and tested.
+There are three roles in scrum process 1. Product Owner 2. Scrum Master 3.Development Team
+1.Product Owner
+- had the global overview of the product/service
+-creates and prioritizes the product backlog which is nothing but the requirements
+-understands the customer’s needs and the business value
+
+2.Scrum Master
+- organizes the process
+- keeps track of the teams progress
+- removes impediments/obstacles from the path of the team
+3.Development team
+- self organize the execution of the task at hand and deliver business value
+- manage the product backlog and communicate with the product owner for any changes in plan.
+
