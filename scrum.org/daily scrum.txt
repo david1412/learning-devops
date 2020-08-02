@@ -1,0 +1,4 @@
+ the Development Team plans work for the next 24 hours. This
+optimizes team collaboration and performance by inspecting the work since the last Daily Scrum
+and forecasting upcoming Sprint work. The Daily Scrum is held at the same time and place each
+day to reduce complexity.
