@@ -11,6 +11,8 @@ Scrum defines three roles
       * Drives the product backlogs, a prioritised dynamic list of all requirments needed for the product.
       * Creats a sprint, a period of 1 to 4 weeks based on sprint goal.
       * during sprint planning he creats sprint backlog to resolve the issues if any. 
+      * during sprint planning he creats sprint backlog to resolve the issues if any.
+
 
 2. SCRUM MASTER:
       * One who inspect and adopt the progress of team on daily basis.
@@ -27,7 +29,7 @@ Scrum defines three roles
 
 
       SCRUM EVENTS:
-          
+         
 	      Prescribed events are created by Product Manger to keep reqularity and to minimize the need for meetings.
 	       
 	      It consists of
@@ -51,3 +53,31 @@ Scrum defines three roles
 		       * INCREMENT 
 		           
               NOTE: I will update the above * classes in coming sessions.
+
+
+              Prescribed events are created by Product Manger to keep reqularity and to minimize the need for meetings.
+
+              It consists of
+
+                        * SPRINT
+                        * SPRINT PLANNING
+                        * DAILY SCRUM
+                        * SPRINT REVIEW
+                        * SPRINT RETROSPECTIVE
+
+              NOTE: I will upadte the above  * classes in coming seesions
+
+      SCRUM ARTIFACTS:
+
+              Artifacts defiend by scrum are mainly created to maintain transparency of key information so that every body has the same understanding about the work/project.
+
+              It consists of
+
+                       * PRODUCT BLOCKLOG
+                       * SPRINT BACKLOG
+                       * INCREMENT
+
+              NOTE: I will update the above * classes in coming sessions.
+
+
+
