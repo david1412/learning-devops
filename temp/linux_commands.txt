@@ -1,0 +1,10 @@
+this is the linux command
+1)mkdir =  creates the directory
+2)cd    =  check directory
+3)cd .. =  one level low
+4)ls    =  list of files
+5)cat   =  output of the command
+6)vi (file name)= creates and opens a new file by editing
+7)touch = creates the file
+8)man   = manual
+9)pwd   = present working directory
