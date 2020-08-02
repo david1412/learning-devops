@@ -1,0 +1,3 @@
+The Scrum Master is responsible for promoting and supporting Scrum as defined in the Scrum
+Guide. Scrum Masters do this by helping everyone understand Scrum theory, practices, rules,
+and values.
