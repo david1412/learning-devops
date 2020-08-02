@@ -1,0 +1,29 @@
+here are the git commads
+
+1)git config --global user.name   =    setting author name for commits
+2)git config --global user.email  =    setting author email for commits
+3)git init                        =    creating new local repository
+4)git clone                       =    creates local copy of remote repository
+5)git add                         =    stages specific file or directory
+6)git add -A                      =    stages all changed files
+7)git add .                       =    stages new and changes files, not deleted files
+8)git add -u                      =    staged changed and deleted files
+9)git commit -m ""                =    commit everything that is staged
+10)git status                     =    shoes status
+11)git fetch                      =    downloads all history from remote branches
+12)git merge                      =    merges remote into local current branch
+13)git pull                       =    downloads all history from the remote branch and merges to local current branch
+14)pit push                       =    pushes all the commits from the currents branch to remote branch
+15)git checkout                   =    replace file with contents from HEAD
+16)git revert                     =    creates new commit , then apply to the current branch
+17)git reset                      =    removes file from ctagging area
+18)git barnch                     =    creates new branch
+19)git checkout                   =    switch to that branch
+20)git checkout -b                =    creates and checkout new branch
+21)git branch -d                  =    deletes the brach
+22)git push origin                =    push branch to remote
+23)git branch -r                  =    lists remote branches
+24)git branch -a                  =    lists local and remote branches
+25)git log                        =    lists version history for the current branch
+
+
