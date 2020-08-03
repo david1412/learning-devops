@@ -1,29 +1,76 @@
-1.git config --global user.name "username"
+
+1.git config --global user.name "username" 
+	# ASSIGNS THE USERS USERNAME FOR ALL COMMITS 
+
 2.git config --global user.email "email"
+	# ASSIGNS THE USERS EMAIL FOR ALL COMMITS
+
 3.git init
+	# INITIALISES A .GIT FILE IN LOCAL OF USERS REMOTE REPOSITORY.
+
 4.git clone
-5.git status
-6.git add
-7.git push -u origin master   or git push origin branchname
-8.git pull
-9.git commit -m
-10.git commit -a -m
-11.git add -A
+	# THIS COMMAND COPIES ALL THE CONTENT FROM YOUR REPOSITORY TO LOCAL.
+
+5.git add <file name>
+6.git add -A || git add .
+	# THE ABOVE COMMANDS ARE USED FOR ADDING NEW FILES TO THE REPOSITORY.
+
+7.git commit -a -m "message content"
+8.git commit -m "message content"
+	# commits all the staged files to be pushed to the remote repository.
+
+9.git push origin branchname
+10.git push -u origin master
+11.git push
+	# PUSHING ALL THE COMMITED FILES TO THE REMOTE REPOSITORY. 
+
 12.git remote add origin
-13.git checkout
-14.git branch
+	# ADDS THE REMOTE REPOSITORY ORIGIN SO THAT WE CAN START OUR WORK WITH ALL THE BRANCHES IN THE REPOSITORY.
+
+13.git branch <branch name>
+	# creates a new branch with the branch name
+
+14.git checkout <branch name>
+	# leaves the present branch and enters the new branch.
+
 15.git merge
+	# merges the remote branch into current local branch.
+
 16.git pull origin master
+	# pulls the content from the repository.
+
 17.git pull origin branchname
+	# 
+
 18.git log
+	# Showa history for the current branch.
+
 19.git --help
-20.git branch -a - lists local and remote branches
-21.git branch -r - lista remote branches
-22.git checkout branchname - we move to new branch
-23.git checkout -b 'local branch name' origin/'remote branch name' - we use this when we create a remote branch and want to establish a path from the local branch to the remote branch.
-24.git branch -d - deletes the branch
-25.git reset (file name) - removes file from staging area
-26.git fetch 
+	# shows the complete information about the command.
+
+20.git branch -a
+	# lists local and remote branches
+
+21.git branch -r 
+	# lista remote branches
+
+22.git checkout branch-name
+	# we move to new branch
+
+23.git checkout -b 'local branch name' origin/'remote branch name'
+	# we use this when we create a remote branch and want to establish a path from the local branch to the remote branch.
+
+24.git branch -d
+	# deletes the branch
+
+25.git reset (file name)
+	# removes file from staging area
+
+26.git fetch
+	# downloads all history from the remote branch.
+  
 27.git push
-28.git config colour.ui true
-29. git restore
+	# this is the combination of both git merge and git fetch. It pushes all the content from local to remote.
+
+28.git restore
+	# restores all the staged files which were added.

@@ -1,23 +1,41 @@
-ls
-pwd
-cd
-cd ..
-mkdir
-rm -f
-rm -rf
-cat
-vi
-vim
-touch
-man
-ls -a
-ls -l
-ls -lh
-ls -ll
-ls -lrt
-nano
-cd ~ ---> tilt this brings us to the original path
-cd /bin ---> after reverting to original path this /bin path will give you list of all the linux commands
-history ---> gives recently used commands
-history n(number from where you want to see the commanda list) eg: history 0 shows all the commanda used from the begining.
+1.ls # lists the storage of the current directory
+
+2.pwd # shows the path for the current working directory
+
+3.cd # changes path to the new directory
+
+4.cd .. # moves one directory back
+
+5.mkdir # creates a new directory
+
+6.rm -r # removes a directory
+
+7.rm -rf # forced removal of a directory
+
+8.rm # removes a file
+
+9.rm-f # forced removal of file
+
+10.cat # displays all the content present in the file.
+
+11.vi # editor used to create a file and edit
+
+12.touch # creates a new file # we can also create multiple files using it.
+ 
+13.man # Shows the help manual
+ 
+14.ls -a # lists all files including hidden files.
+
+15.ls -l # long listing
+
+16.nano # it is an editor
+
+17.cd ~ # tilt command, this brings us to the original path
+
+18.cd /bin # after reverting to original path this /bin path will give you list of all the linux commands
+
+19.history # gives recently used commands
+
+20.history n(number from where you want to see the commanda list) 
+	eg: history 0 shows all the commanda used from the begining.
 
