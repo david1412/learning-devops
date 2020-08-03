@@ -1,0 +1,11 @@
+linux commnds
+
+mv ->move file
+cd -> change directory
+pwd -> present working dir
+ls -> list of files
+cat ->shows content in file
+ esc+dd  -> delete the line by line
+ esc :1,.d -> delt all lines at once
+ esc :1,$d -> dlt all lines at once
+ esc :dG ->dlt lines from begining of cursor position
