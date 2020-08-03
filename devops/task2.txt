@@ -1,0 +1,2 @@
+ this is text file for the task2 where pradeep and phani will work as team B to create two text file and then phani will merge pradeeps text file
+ :::

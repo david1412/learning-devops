@@ -1,0 +1,37 @@
+Linux is an operating system's kernel.Linux is a UNIX clone.It was actually created by Linus Torvalds from Scratch.Linux is free and open-source, that means that you can simply change anything in Linux and redistribute it.
+
+
+      Linux "Shell/Terminal"
+
+
+  A shell is a program that receives commands from the user and gives it to the OS to process, and it shows the output.
+
+    Some basic commands that we use in the shell of Linux.
+
+
+    1.pwd   ->To know which directory you are in
+    2.ls    —>To know what files are in the directory you are in
+    3.ls -a ->To see all hidden files in the directory
+    4.cd    —>To go to a directory
+    5.mkdir ->To creat a folder or a directory
+    6.rmdir ->To delete an empty directory
+    7.rm    ->To delete a directory contaning files
+    8.rm -r ->To delete just the directory
+    9.Touch —> To create a file
+    10.man & --help  ->To know about command and how to use it
+    11.cp   ->To copy files through the command line
+    12.mv   ->To move files through the command line
+    13.locate ->To locate file in system
+    14.cat  ->To dispaly the content of a file
+    15.echo ->T move data,usually text into a file
+    16.nano,vi,jed -> text editors
+    17.df   ->To see available disk space
+    18.df-m ->To show in megabytes
+    19.du   ->To know disk usage 
+    20.hostname ->To know your name in host or network
+    21.ping  -> To check connection to a server
+    22.clear ->To clear the terminal
+    23.TAb button -> auot fill up in terminal after entering thhree characters
+    24.ctrl+c  ->To stop any comman in terminal
+    25.ctrl+z  ->To force stop terminal
+    26.exit   -> to exit from terminal
